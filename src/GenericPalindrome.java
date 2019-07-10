@@ -7,7 +7,7 @@ public class GenericPalindrome<E> {
         this.list = list;
     }
 
-    public boolean checkIfPalindrome() {
+    public boolean isPalindrome() {
         for (int i = 0; i <= (list.size() - 1) / 2; i++) {
             if (!(list.get(i).equals(list.get(list.size() - i - 1))))
                 return false;
